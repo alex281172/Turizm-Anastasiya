@@ -1,0 +1,101 @@
+{
+  "positions" : [ {
+    "id" : "/Start",
+    "x" : 244,
+    "y" : 26
+  }, {
+    "id" : "/CatchAll",
+    "x" : 240,
+    "y" : 1231
+  }, {
+    "id" : "/SuggestMenu",
+    "x" : 620,
+    "y" : 0
+  }, {
+    "id" : "/ChooseCityDate",
+    "x" : 620,
+    "y" : 817
+  }, {
+    "id" : "/ChooseDestination",
+    "x" : 620,
+    "y" : 1261
+  }, {
+    "id" : "/GetWeather",
+    "x" : -614,
+    "y" : 27
+  }, {
+    "id" : "/DateDefine",
+    "x" : -162,
+    "y" : 366
+  }, {
+    "id" : "/GetDate",
+    "x" : -142,
+    "y" : 30
+  }, {
+    "id" : "/ChooseDestination/ChooseTour",
+    "x" : 240,
+    "y" : 218
+  }, {
+    "id" : "/ChooseDestination/NoIdea",
+    "x" : 240,
+    "y" : 652
+  }, {
+    "id" : "/ChooseDestination/HowManyAdults",
+    "x" : 620,
+    "y" : 4789
+  }, {
+    "id" : "/ChooseDestination/HowManyKids",
+    "x" : 240,
+    "y" : 1118
+  }, {
+    "id" : "/ChooseDestination/Budget",
+    "x" : 240,
+    "y" : 1530
+  }, {
+    "id" : "/ChooseDestination/DateTour",
+    "x" : 240,
+    "y" : 1943
+  }, {
+    "id" : "/ChooseDestination/Duration",
+    "x" : 240,
+    "y" : 2345
+  }, {
+    "id" : "/ChooseDestination/HowManyStars",
+    "x" : 240,
+    "y" : 2757
+  }, {
+    "id" : "/ChooseDestination/ClientName",
+    "x" : 240,
+    "y" : 3170
+  }, {
+    "id" : "/ChooseDestination/PhoneNumber",
+    "x" : 240,
+    "y" : 3582
+  }, {
+    "id" : "/ChooseDestination/Comment",
+    "x" : 240,
+    "y" : 4016
+  }, {
+    "id" : "/ChooseDestination/Email",
+    "x" : 988,
+    "y" : 4420
+  }, {
+    "id" : "/ChooseDestination/Email/EmailSuccess",
+    "x" : 215,
+    "y" : 56
+  }, {
+    "id" : "/ChooseDestination/Email/EmailFail",
+    "x" : 205,
+    "y" : 477
+  }, {
+    "id" : "/ChooseDestination/EmailSuccess",
+    "name" : "EmailSuccess",
+    "x" : 1383,
+    "y" : 4289
+  }, {
+    "id" : "/ChooseDestination/EmailFail",
+    "name" : "EmailFail",
+    "x" : 1383,
+    "y" : 4760
+  } ]
+}

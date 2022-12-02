@@ -1,0 +1,24 @@
+name: zb-cailapub
+
+entryPoint: main.sc
+
+botEngine: v2
+language: ru
+
+injector:
+    botName: алекс
+    api_key: 'feec268163d972404f718040920d2dd3'
+    slotfilling:
+          maxSlotRetries: 2
+          stopOnAnyIntent: true
+          stopOnAnyIntentThreshold: 0.2
+
+tests:
+  include:
+    - test.xml
+
+sts:
+    noMatchThreshold: 0.2
+
+caila:
+    noMatchThreshold: 0.2

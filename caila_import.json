@@ -1,0 +1,193 @@
+{
+  "project" : {
+    "id" : "bot_dlya_just_tour-257640826-gaT",
+    "name" : "bot_dlya_just_tour-257640826-gaT",
+    "folder" : "/jaicp"
+  },
+  "settings" : {
+    "language" : "ru",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "UTC",
+    "extendedSettings" : {
+      "useShared" : false
+    },
+    "shared" : false
+  },
+  "intents" : [ {
+    "path" : "/пока",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "пока"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "priority" : 0
+  }, {
+    "path" : "/привет",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "привет"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "priority" : 0
+  }, {
+    "path" : "/geo",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "@mystem.geo"
+    }, {
+      "text" : "@duckling.date"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ {
+      "name" : "geo",
+      "entity" : "mystem.geo",
+      "required" : true,
+      "prompts" : [ "В каком городе или стране?" ],
+      "array" : false
+    }, {
+      "name" : "date",
+      "entity" : "duckling.date",
+      "required" : true,
+      "prompts" : [ "На какую дату? ", "Когда?" ]
+    } ],
+    "priority" : 0
+  }, {
+    "path" : "/noidea",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Не знаю"
+    }, {
+      "text" : "Не уверен*"
+    }, {
+      "text" : "Не определил*"
+    }, {
+      "text" : "* кто его знает "
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "mystem.geo", "pymorphy.name", "pymorphy.geox", "duckling.number", "duckling.amount-of-money", "duckling.time", "duckling.date", "duckling.time-of-day", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url", "duckling.interval", "zb.datetime", "zb.number" ],
+  "spellerDictionary" : [ {
+    "word" : "градусов",
+    "frequency" : 1
+  } ],
+  "systemEntities" : [ {
+    "name" : "mystem.geo",
+    "enabled" : true
+  }, {
+    "name" : "mystem.persn",
+    "enabled" : false
+  }, {
+    "name" : "mystem.obsc",
+    "enabled" : false
+  }, {
+    "name" : "mystem.patrn",
+    "enabled" : false
+  }, {
+    "name" : "mystem.famn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.romn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.latn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.numb",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.intg",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.abbr",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.name",
+    "enabled" : true
+  }, {
+    "name" : "pymorphy.surn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.patr",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.geox",
+    "enabled" : true
+  }, {
+    "name" : "pymorphy.orgn",
+    "enabled" : false
+  }, {
+    "name" : "duckling.number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.ordinal",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.amount-of-money",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.distance",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.date",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.time-of-day",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.duration",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.phone-number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.email",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.url",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.interval",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "mlps-obscene.obscene",
+    "enabled" : false
+  }, {
+    "name" : "zb.datetime",
+    "enabled" : true
+  }, {
+    "name" : "zb.number",
+    "enabled" : true
+  } ]
+}
